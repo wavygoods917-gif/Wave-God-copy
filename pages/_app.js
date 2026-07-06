@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
-  },[])
+  },[])  
   return <Component {...pageProps} />
 }
 
